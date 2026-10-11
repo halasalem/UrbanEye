@@ -149,5 +149,3 @@ For this repository preparation, Python syntax and embedded credential patterns 
 ## Project credits
 
 Developed by **Hala Salem, Lama AbuTuaimeh, and Suliman Abusamak** at **Applied Science University**, supervised by **Dr. Bashar Alshouha**.
-
-This repository preserves the team project's source while providing an independent repository under Hala Salem's account.
