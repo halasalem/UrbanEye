@@ -6,6 +6,10 @@ UrbanEye connects a web dashboard to a simulated PX4 drone, combining natural la
 
 This repository contains the Python services and dashboard from the undergraduate graduation project. The Unreal Engine environment, PX4 installation, trained YOLO weights, credentials, and private saved locations are not included.
 
+## Demo
+
+[Watch the UrbanEye demo on YouTube](https://www.youtube.com/watch?v=X64fSH44iSk)
+
 ## Features
 
 - English and Arabic command interpretation using a hosted language model.
