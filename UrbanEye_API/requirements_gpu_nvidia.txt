@@ -1,0 +1,29 @@
+# UrbanEye CV API - NVIDIA GPU version
+# Install with:
+#   python -m pip install -r requirements_gpu_nvidia.txt
+#
+# This uses the official PyTorch CUDA wheel index.
+# For an NVIDIA RTX 3050 laptop, this should install CUDA-enabled PyTorch.
+# python -m pip install -r requirements_gpu_nvidia.txt
+
+# python -c "import torch; print(torch.__version__); print(torch.cuda.is_available()); print(torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'NO CUDA')"
+
+
+--index-url https://download.pytorch.org/whl/cu128
+--extra-index-url https://pypi.org/simple
+
+# PyTorch GPU packages
+# Keep these before ultralytics/easyocr so they do not pull CPU-only torch.
+torch
+torchvision
+torchaudio
+
+# API + computer vision dependencies
+ultralytics
+flask
+flask-cors
+opencv-python
+numpy
+easyocr
+pillow
+requests

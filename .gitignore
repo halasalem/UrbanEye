@@ -1,0 +1,30 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+LLM_TOKEN.txt
+*token*.txt
+*credentials*.json
+*service*account*.json
+*.pem
+*.key
+
+# Models and generated data
+*.pt
+*.pth
+*.onnx
+saved_locations.json
+target_locations.json
+UrbanEye_API/debug_plates/
+UrbanEye_API/test_image.png
+voice_command.*
+voice_commands.jsonl
+*.log
+
+# Python and editor files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.vscode/
+.idea/
