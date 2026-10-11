@@ -36,6 +36,8 @@ The dashboard connects to FastAPI at `127.0.0.1:8000`. The optional local comput
 
 ## Repository contents
 
+For plain-language explanations of every file, its technical role, and what it needs to run, see the **[File Guide](docs/FILE_GUIDE.md)**.
+
 | File | Purpose |
 | --- | --- |
 | `drone_nav_final.py` | Drone navigation and flight control |
@@ -51,6 +53,15 @@ The dashboard connects to FastAPI at `127.0.0.1:8000`. The optional local comput
 | `UrbanEye_API/` | Optional local computer vision API and dependencies |
 | `saved_locations.example.json` | Empty template for local saved destinations |
 | `.env.example` | Environment variable reference without credentials |
+| `.gitignore` | Excludes credentials, weights, private locations, and generated files from future Git commits |
+| `requirements_web.txt` | Python dependencies for the main backend and navigation modules |
+| `UrbanEye_API/app.py` | Optional Flask service running local YOLO detection and EasyOCR |
+| `UrbanEye_API/test_api.py` | Manual image request script for the local vision API |
+| `UrbanEye_API/requirements.txt` | Dependencies for the local vision API |
+| `UrbanEye_API/requirements_gpu_nvidia.txt` | Alternative NVIDIA CUDA dependency configuration |
+| `UrbanEye_API/models/README.md` | Instructions for placing excluded weights locally |
+| `README.md` | Project overview, demo, setup, limitations, and team credits |
+| `docs/FILE_GUIDE.md` | Detailed plain-language descriptions of every repository file |
 
 ## Setup
 
