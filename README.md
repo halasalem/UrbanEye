@@ -19,7 +19,7 @@ This repository contains the Python services and dashboard from the undergraduat
 - Flight telemetry and camera display in the dashboard.
 - Vision-language analysis of incidents and license plates.
 - An optional local YOLO and EasyOCR service for incident detection and plate reading.
-- Firebase Authentication and Firestore integration in the dashboard.
+- Firebase Authentication and Firestore integration in the dashboard. 
 
 ## Architecture
 
